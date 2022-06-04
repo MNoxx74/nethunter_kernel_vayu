@@ -5,7 +5,7 @@ echo -e "\nStarting compilation...\n"
 ANYKERNEL3_DIR=$PWD/AnyKernel3/
 FINAL_KERNEL_ZIP=PornX-vayu-miui.zip
 
-CONFIG=vayu_defconfig
+CONFIG=nethunter_defconfig
 KERNEL_DIR=$(pwd)
 PARENT_DIR="$(dirname "$KERNEL_DIR")"
 KERN_IMG="$KERNEL_DIR/out/arch/arm64/boot/Image"
